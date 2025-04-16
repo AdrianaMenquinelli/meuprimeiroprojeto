@@ -198,14 +198,7 @@ body{
     
 }
 
-@media(max-width: 1200px){
-    body{
-        background-color: #FFF2E1; 
-        
-        }
-    main{
-        align-items: center;
-    }    
+@media (min-width:400px) and (max-width: 1200px){
 
     .cabecalho{
         padding: 10%;
@@ -213,21 +206,20 @@ body{
 
     .cabecalho__menu{
         justify-content: center;
-
     }
-    
     .apresentacao{
         flex-direction: column-reverse;
         padding: 5%;
     }
+
     .apresentacao__conteudo{
-        width: auto;
+        width: 100%;
     }
     .paragrafo{
         flex-direction: column-reverse;
         padding: 5%;
     }
+
     .paragrafo__apresentacao{
-        width: auto;
-    }    
-}
+        width: 100%;
+    }
